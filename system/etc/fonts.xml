@@ -38,15 +38,24 @@
    </family>
     <!-- lxgw 注：其次调用自定义字体，自定义字体将在 CJK 部分再次调用 -->
     <family>
-        <font weight="100" style="normal">fontchw1.ttf</font>
-        <font weight="200" style="normal">fontchw2.ttf</font>
-        <font weight="300" style="normal">fontchw3.ttf</font>
-        <font weight="400" style="normal">fontchw4.ttf</font>
-        <font weight="500" style="normal">fontchw5.ttf</font>
-        <font weight="600" style="normal">fontchw6.ttf</font>
-        <font weight="700" style="normal">fontchw7.ttf</font>
-        <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="100" style="normal">fontenw2.otf</font>
+        <font weight="200" style="normal">fontenw3.otf</font>
+        <font weight="300" style="normal">fontenw4.otf</font>
+        <font weight="400" style="normal">fontenw5.otf</font>
+        <font weight="500" style="normal">fontenw6.otf</font>
+        <font weight="600" style="normal">fontenw7.otf</font>
+        <font weight="700" style="normal">fontenw8.otf</font>
+        <font weight="800" style="normal">fontenw9.otf</font>
+        <font weight="900" style="normal">fontenw9.otf</font>
+        <font weight="100" style="italic">fonteiw2.otf</font>
+        <font weight="200" style="italic">fonteiw3.otf</font>
+        <font weight="300" style="italic">fonteiw4.otf</font>
+        <font weight="400" style="italic">fonteiw5.otf</font>
+        <font weight="500" style="italic">fonteiw6.otf</font>
+        <font weight="600" style="italic">fonteiw7.otf</font>
+        <font weight="700" style="italic">fonteiw8.otf</font>
+        <font weight="800" style="italic">fonteiw9.otf</font>
+        <font weight="900" style="italic">fonteiw9.otf</font>
    </family>
     <!-- lxgw 注：调用静态 Roboto 兼容 Android 11 -->
     <family>
@@ -1492,50 +1501,86 @@
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted.ttf</font>
     </family>
     <!-- lxgw 注：CJK 部分首先调用西文字体 -->
-    <!--<family lang="zh-Hans">
-        <font weight="100" style="normal">NotoSansSC-Thin.ttf</font>
-        <font weight="200" style="normal">NotoSansSC-ExtraLight.ttf</font>
-        <font weight="300" style="normal">NotoSansSC-Light.ttf</font>
-        <font weight="400" style="normal">NotoSansSC-Regular.ttf</font>
-        <font weight="500" style="normal">NotoSansSC-Medium.ttf</font>
-        <font weight="600" style="normal">NotoSansSC-SemiBold.ttf</font>
-        <font weight="700" style="normal">NotoSansSC-Bold.ttf</font>
-        <font weight="800" style="normal">NotoSansSC-ExtraBold.ttf</font>
-        <font weight="900" style="normal">NotoSansSC-Black.ttf</font>
+    <family lang="zh-Hans">
+        <font weight="100" style="normal">fontenw2.otf</font>
+        <font weight="200" style="normal">fontenw3.otf</font>
+        <font weight="300" style="normal">fontenw4.otf</font>
+        <font weight="400" style="normal">fontenw5.otf</font>
+        <font weight="500" style="normal">fontenw6.otf</font>
+        <font weight="600" style="normal">fontenw7.otf</font>
+        <font weight="700" style="normal">fontenw8.otf</font>
+        <font weight="800" style="normal">fontenw9.otf</font>
+        <font weight="900" style="normal">fontenw9.otf</font>
+        <font weight="100" style="italic">fonteiw2.otf</font>
+        <font weight="200" style="italic">fonteiw3.otf</font>
+        <font weight="300" style="italic">fonteiw4.otf</font>
+        <font weight="400" style="italic">fonteiw5.otf</font>
+        <font weight="500" style="italic">fonteiw6.otf</font>
+        <font weight="600" style="italic">fonteiw7.otf</font>
+        <font weight="700" style="italic">fonteiw8.otf</font>
+        <font weight="800" style="italic">fonteiw9.otf</font>
+        <font weight="900" style="italic">fonteiw9.otf</font>
     </family>
     <family lang="zh-Hant">
-        <font weight="100" style="normal">NotoSansSC-Thin.ttf</font>
-        <font weight="200" style="normal">NotoSansSC-ExtraLight.ttf</font>
-        <font weight="300" style="normal">NotoSansSC-Light.ttf</font>
-        <font weight="400" style="normal">NotoSansSC-Regular.ttf</font>
-        <font weight="500" style="normal">NotoSansSC-Medium.ttf</font>
-        <font weight="600" style="normal">NotoSansSC-SemiBold.ttf</font>
-        <font weight="700" style="normal">NotoSansSC-Bold.ttf</font>
-        <font weight="800" style="normal">NotoSansSC-ExtraBold.ttf</font>
-        <font weight="900" style="normal">NotoSansSC-Black.ttf</font>
+        <font weight="100" style="normal">fontenw2.otf</font>
+        <font weight="200" style="normal">fontenw3.otf</font>
+        <font weight="300" style="normal">fontenw4.otf</font>
+        <font weight="400" style="normal">fontenw5.otf</font>
+        <font weight="500" style="normal">fontenw6.otf</font>
+        <font weight="600" style="normal">fontenw7.otf</font>
+        <font weight="700" style="normal">fontenw8.otf</font>
+        <font weight="800" style="normal">fontenw9.otf</font>
+        <font weight="900" style="normal">fontenw9.otf</font>
+        <font weight="100" style="italic">fonteiw2.otf</font>
+        <font weight="200" style="italic">fonteiw3.otf</font>
+        <font weight="300" style="italic">fonteiw4.otf</font>
+        <font weight="400" style="italic">fonteiw5.otf</font>
+        <font weight="500" style="italic">fonteiw6.otf</font>
+        <font weight="600" style="italic">fonteiw7.otf</font>
+        <font weight="700" style="italic">fonteiw8.otf</font>
+        <font weight="800" style="italic">fonteiw9.otf</font>
+        <font weight="900" style="italic">fonteiw9.otf</font>
     </family>
     <family lang="ja">
-        <font weight="100" style="normal">NotoSansSC-Thin.ttf</font>
-        <font weight="200" style="normal">NotoSansSC-ExtraLight.ttf</font>
-        <font weight="300" style="normal">NotoSansSC-Light.ttf</font>
-        <font weight="400" style="normal">NotoSansSC-Regular.ttf</font>
-        <font weight="500" style="normal">NotoSansSC-Medium.ttf</font>
-        <font weight="600" style="normal">NotoSansSC-SemiBold.ttf</font>
-        <font weight="700" style="normal">NotoSansSC-Bold.ttf</font>
-        <font weight="800" style="normal">NotoSansSC-ExtraBold.ttf</font>
-        <font weight="900" style="normal">NotoSansSC-Black.ttf</font>
+        <font weight="100" style="normal">fontenw2.otf</font>
+        <font weight="200" style="normal">fontenw3.otf</font>
+        <font weight="300" style="normal">fontenw4.otf</font>
+        <font weight="400" style="normal">fontenw5.otf</font>
+        <font weight="500" style="normal">fontenw6.otf</font>
+        <font weight="600" style="normal">fontenw7.otf</font>
+        <font weight="700" style="normal">fontenw8.otf</font>
+        <font weight="800" style="normal">fontenw9.otf</font>
+        <font weight="900" style="normal">fontenw9.otf</font>
+        <font weight="100" style="italic">fonteiw2.otf</font>
+        <font weight="200" style="italic">fonteiw3.otf</font>
+        <font weight="300" style="italic">fonteiw4.otf</font>
+        <font weight="400" style="italic">fonteiw5.otf</font>
+        <font weight="500" style="italic">fonteiw6.otf</font>
+        <font weight="600" style="italic">fonteiw7.otf</font>
+        <font weight="700" style="italic">fonteiw8.otf</font>
+        <font weight="800" style="italic">fonteiw9.otf</font>
+        <font weight="900" style="italic">fonteiw9.otf</font>
     </family>
     <family lang="ko">
-        <font weight="100" style="normal">NotoSansSC-Thin.ttf</font>
-        <font weight="200" style="normal">NotoSansSC-ExtraLight.ttf</font>
-        <font weight="300" style="normal">NotoSansSC-Light.ttf</font>
-        <font weight="400" style="normal">NotoSansSC-Regular.ttf</font>
-        <font weight="500" style="normal">NotoSansSC-Medium.ttf</font>
-        <font weight="600" style="normal">NotoSansSC-SemiBold.ttf</font>
-        <font weight="700" style="normal">NotoSansSC-Bold.ttf</font>
-        <font weight="800" style="normal">NotoSansSC-ExtraBold.ttf</font>
-        <font weight="900" style="normal">NotoSansSC-Black.ttf</font>
-    </family>-->
+        <font weight="100" style="normal">fontenw2.otf</font>
+        <font weight="200" style="normal">fontenw3.otf</font>
+        <font weight="300" style="normal">fontenw4.otf</font>
+        <font weight="400" style="normal">fontenw5.otf</font>
+        <font weight="500" style="normal">fontenw6.otf</font>
+        <font weight="600" style="normal">fontenw7.otf</font>
+        <font weight="700" style="normal">fontenw8.otf</font>
+        <font weight="800" style="normal">fontenw9.otf</font>
+        <font weight="900" style="normal">fontenw9.otf</font>
+        <font weight="100" style="italic">fonteiw2.otf</font>
+        <font weight="200" style="italic">fonteiw3.otf</font>
+        <font weight="300" style="italic">fonteiw4.otf</font>
+        <font weight="400" style="italic">fonteiw5.otf</font>
+        <font weight="500" style="italic">fonteiw6.otf</font>
+        <font weight="600" style="italic">fonteiw7.otf</font>
+        <font weight="700" style="italic">fonteiw8.otf</font>
+        <font weight="800" style="italic">fonteiw9.otf</font>
+        <font weight="900" style="italic">fonteiw9.otf</font>
+    </family>
     <!-- lxgw 注：其次调用各自语言字体 -->
     <family lang="zh-Hans">
         <font weight="100" style="normal">fontchw1.ttf</font>
