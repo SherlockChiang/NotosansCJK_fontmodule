@@ -1,0 +1,55 @@
+#!/sbin/sh
+
+#################
+# Initialization
+#################
+
+umask 022
+
+# echo before loading util_functions
+ui_print() { echo "$1"; }
+
+require_new_magisk() {
+  ui_print "********************************"
+  ui_print "请安装高于20.4版本的Magisk程序"
+  ui_print "********************************"
+  exit 1
+}
+
+#########################
+# Load util_functions.sh
+#########################
+
+OUTFD=$2
+ZIPFILE=$3
+
+mount /data 2>/dev/null
+
+[ -f /data/adb/magisk/util_functions.sh ] || require_new_magisk
+. /data/adb/magisk/util_functions.sh
+[ $MAGISK_VER_CODE -lt 20400 ] && require_new_magisk
+
+install_module
+
+ui_print ""
+ui_print "- 本模块由 NianBroken 制作"
+ui_print "- 二次修改或转载请勿删除原作者信息"
+ui_print "- 网址：nianbroken.top"
+ui_print "- QQ： 2971802058"
+ui_print "- WeChat： NianBroken"
+ui_print "- Github： NianBroken"
+ui_print "- Gmail： suinian666@gmail.com"
+ui_print ""
+ui_print "- 如有问题或建议"
+ui_print "- 请在 https://blog.nianbroken.top 的留言板中提出"
+ui_print ""
+ui_print "- 更新日志："
+ui_print "- - - - - - - -"
+ui_print "- 版本：v18.02（19）"
+ui_print "- 更新日期：2022年11月29日"
+ui_print "- 增加SF Pro 西文常规（八字重）"
+ui_print "- 增加SF Pro 西文斜体（八字重）"
+ui_print "- 增加在线更新"
+ui_print "- 更加规范的版本号"
+
+exit 0
