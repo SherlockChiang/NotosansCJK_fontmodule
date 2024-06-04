@@ -9,7 +9,7 @@
 - **魅族 Flyme：** 将 `/system/etc/fonts.xml` 复制 3 份到相同文件夹，并重命名为以下 3 个文件： `fonts_flyme.xml`、`fonts_inter.xml` 和 `fonts_slate.xml`。
 - **小米 MIUI 12.5：** 需刷入 [空字体模块](https://pan.nianbroken.top/d/OnedriveShare/%E7%A9%BA%E5%AD%97%E4%BD%93-%E8%87%AA%E5%8A%A8%E8%AF%86%E5%88%ABv4.4.zip)。
 
-如有其他设备的兼容性调整，请在 https://blog.nianbroken.top 的留言板中提出。\
+如有其他设备的兼容性调整，请在 https://blog.nianbroken.top 的留言板中提出。
 
 字体模块作者：https://www.nianbroken.top/
 
@@ -20,3 +20,5 @@ WeChat： NianBroken
 Github： NianBroken
 
 Gmail： suinian666@gmail.com
+
+二改作者：Uranium92
