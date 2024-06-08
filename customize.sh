@@ -1,4 +1,4 @@
-﻿##########################################################################################
+##########################################################################################
 #
 # Magisk Module Template Config Script
 # by 小白杨
@@ -22,20 +22,6 @@
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
-SKIPMOUNT=false
-#是否安装模块后自动关闭，改为faslse，安装后不会自动勾选启用
-
-# Set to true if you need to load system.prop
-PROPFILE=false
-#是否使用common/system.prop文件
-
-# Set to true if you need post-fs-data script
-POSTFSDATA=false
-#是否使用post-fs-data脚本执行文件
-
-# Set to true if you need late_start service script
-LATESTARTSERVICE=false
-#是否在开机时候允许允许common/service.sh中脚本
 
 ##########################################################################################
 # Installation Message
@@ -44,22 +30,12 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
+  ui_print "  基于酷安＠潇风残月 的 Magisk 20.4 开发模板制作。"
   ui_print "*******************************"
-  ui_print "┏━━━━━━━━━━━━━━━━━━━━┓
-┃  感受字体之美  ┃
-┗━━━━━━━━━━━━━━━━━━━━┛
-  微信公众号拾陆字"
-  ui_print "　　　　　　　
-  二改自@Uranium92
-　　　　　　　　　　　　　　　　　　"
-  ui_print "+++++++++++++++++++++++++++++"
-  ui_print "  注意：
-  字体模块仅供个人使用，严禁商用，
-  禁止二传禁止倒卖！
-  如有侵权请联系我删除，
-  若商用请联系相应的字体公司购买正版授权。"
+  ui_print " 微信公众号：犬神志  92二改"
   ui_print "*******************************"
-
+  ui_print "  NotoSans为开源字体,请放心使用,模块免费。"
+  ui_print "*******************************"
 }
 
 ##########################################################################################
@@ -125,4 +101,21 @@ set_permissions() {
 # update-binary. Refrain from adding code directly into update-binary, as it will make it
 # difficult for you to migrate your modules to newer template versions.
 # Make update-binary as clean as possible, try to only do function calls in it.
+
+
+CommonPath=$MODPATH/common
+if [ ! -d ${CommonPath} ];then
+  ui_print "模块高级设置不需要修复!"
+  
+elif [ "`ls -A ${CommonPath}`" = "" ];then
+    ui_print "模块高级设置为空!"
+    rm  -rf  ${CommonPath}
+else
+
+  ui_print "- 正在进行模块高级设置"
+  mv  ${CommonPath}/*  $MODPATH
+  rm  -rf ${CommonPath}
+
+fi
+
 

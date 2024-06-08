@@ -35,17 +35,14 @@
         <font weight="700" style="normal">RobotoFake-Bold.ttf</font>
         <font weight="700" style="italic">RobotoFake-BoldItalic.ttf</font>
     </family>
-    <!-- 调用英文字体 Notosans  -->
+    <!-- 调用英文字体 GuruEnglish  -->
     <family>
-        <font weight="100" style="normal">fontchw1.ttf</font>
-        <font weight="200" style="normal">fontchw2.ttf</font>
-        <font weight="300" style="normal">fontchw3.ttf</font>
-        <font weight="400" style="normal">fontchw4.ttf</font>
-        <font weight="500" style="normal">fontchw5.ttf</font>
-        <font weight="600" style="normal">fontchw6.ttf</font>
-        <font weight="700" style="normal">fontchw7.ttf</font>
-        <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="100" style="normal">Guruwords-Thin.otf</font>
+        <font weight="300" style="normal">Guruwords-Light.otf</font>
+        <font weight="400" style="normal">Guruwords-Regular.otf</font>
+        <font weight="500" style="normal">Guruwords-Medium.otf</font>
+        <font weight="700" style="normal">Guruwords-Bold.otf</font>
+        <font weight="900" style="normal">Guruwords-Bold.otf</font>
     </family>
     <!-- 缺字补 Roboto，无需更改系统字体文件   -->
     <family>
@@ -562,51 +559,164 @@
     <family>
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted.ttf</font>
     </family>
-    <!-- 犬神志注：简繁日韩多字重支持 [2019-08-25]-->
+    <!-- 中日韩文处再次调用英文字体 GuruEnglish
     <family lang="zh-Hans">
-        <font weight="100" style="normal">fontchw1.ttf</font>
-        <font weight="200" style="normal">fontchw2.ttf</font>
-        <font weight="300" style="normal">fontchw3.ttf</font>
-        <font weight="400" style="normal">fontchw4.ttf</font>
-        <font weight="500" style="normal">fontchw5.ttf</font>
-        <font weight="600" style="normal">fontchw6.ttf</font>
-        <font weight="700" style="normal">fontchw7.ttf</font>
-        <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="100" style="normal">GuruEnglish-Thin.ttf</font>
+        <font weight="100" style="italic">GuruEnglish-ThinItalic.ttf</font>
+        <font weight="300" style="normal">GuruEnglish-Light.ttf</font>
+        <font weight="300" style="italic">GuruEnglish-LightItalic.ttf</font>
+        <font weight="400" style="normal">GuruEnglish-Regular.ttf</font>
+        <font weight="400" style="italic">GuruEnglish-Italic.ttf</font>
+        <font weight="500" style="normal">GuruEnglish-Medium.ttf</font>
+        <font weight="500" style="italic">GuruEnglish-MediumItalic.ttf</font>
+        <font weight="900" style="normal">GuruEnglish-Black.ttf</font>
+        <font weight="900" style="italic">GuruEnglish-BlackItalic.ttf</font>
+        <font weight="700" style="normal">GuruEnglish-Bold.ttf</font>
+        <font weight="700" style="italic">GuruEnglish-BoldItalic.ttf</font>
     </family>
     <family lang="zh-Hant">
-        <font weight="100" style="normal">fontchw1.ttf</font>
-        <font weight="200" style="normal">fontchw2.ttf</font>
-        <font weight="300" style="normal">fontchw3.ttf</font>
-        <font weight="400" style="normal">fontchw4.ttf</font>
-        <font weight="500" style="normal">fontchw5.ttf</font>
-        <font weight="600" style="normal">fontchw6.ttf</font>
-        <font weight="700" style="normal">fontchw7.ttf</font>
-        <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="100" style="normal">GuruEnglish-Thin.ttf</font>
+        <font weight="100" style="italic">GuruEnglish-ThinItalic.ttf</font>
+        <font weight="300" style="normal">GuruEnglish-Light.ttf</font>
+        <font weight="300" style="italic">GuruEnglish-LightItalic.ttf</font>
+        <font weight="400" style="normal">GuruEnglish-Regular.ttf</font>
+        <font weight="400" style="italic">GuruEnglish-Italic.ttf</font>
+        <font weight="500" style="normal">GuruEnglish-Medium.ttf</font>
+        <font weight="500" style="italic">GuruEnglish-MediumItalic.ttf</font>
+        <font weight="900" style="normal">GuruEnglish-Black.ttf</font>
+        <font weight="900" style="italic">GuruEnglish-BlackItalic.ttf</font>
+        <font weight="700" style="normal">GuruEnglish-Bold.ttf</font>
+        <font weight="700" style="italic">GuruEnglish-BoldItalic.ttf</font>
     </family>
     <family lang="ja">
-        <font weight="100" style="normal">fontchw1.ttf</font>
-        <font weight="200" style="normal">fontchw2.ttf</font>
-        <font weight="300" style="normal">fontchw3.ttf</font>
-        <font weight="400" style="normal">fontchw4.ttf</font>
-        <font weight="500" style="normal">fontchw5.ttf</font>
-        <font weight="600" style="normal">fontchw6.ttf</font>
-        <font weight="700" style="normal">fontchw7.ttf</font>
-        <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="100" style="normal">GuruEnglish-Thin.ttf</font>
+        <font weight="100" style="italic">GuruEnglish-ThinItalic.ttf</font>
+        <font weight="300" style="normal">GuruEnglish-Light.ttf</font>
+        <font weight="300" style="italic">GuruEnglish-LightItalic.ttf</font>
+        <font weight="400" style="normal">GuruEnglish-Regular.ttf</font>
+        <font weight="400" style="italic">GuruEnglish-Italic.ttf</font>
+        <font weight="500" style="normal">GuruEnglish-Medium.ttf</font>
+        <font weight="500" style="italic">GuruEnglish-MediumItalic.ttf</font>
+        <font weight="900" style="normal">GuruEnglish-Black.ttf</font>
+        <font weight="900" style="italic">GuruEnglish-BlackItalic.ttf</font>
+        <font weight="700" style="normal">GuruEnglish-Bold.ttf</font>
+        <font weight="700" style="italic">GuruEnglish-BoldItalic.ttf</font>
     </family>
     <family lang="ko">
-        <font weight="100" style="normal">fontchw1.ttf</font>
-        <font weight="200" style="normal">fontchw2.ttf</font>
-        <font weight="300" style="normal">fontchw3.ttf</font>
-        <font weight="400" style="normal">fontchw4.ttf</font>
-        <font weight="500" style="normal">fontchw5.ttf</font>
-        <font weight="600" style="normal">fontchw6.ttf</font>
-        <font weight="700" style="normal">fontchw7.ttf</font>
-        <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="100" style="normal">GuruEnglish-Thin.ttf</font>
+        <font weight="100" style="italic">GuruEnglish-ThinItalic.ttf</font>
+        <font weight="300" style="normal">GuruEnglish-Light.ttf</font>
+        <font weight="300" style="italic">GuruEnglish-LightItalic.ttf</font>
+        <font weight="400" style="normal">GuruEnglish-Regular.ttf</font>
+        <font weight="400" style="italic">GuruEnglish-Italic.ttf</font>
+        <font weight="500" style="normal">GuruEnglish-Medium.ttf</font>
+        <font weight="500" style="italic">GuruEnglish-MediumItalic.ttf</font>
+        <font weight="900" style="normal">GuruEnglish-Black.ttf</font>
+        <font weight="900" style="italic">GuruEnglish-BlackItalic.ttf</font>
+        <font weight="700" style="normal">GuruEnglish-Bold.ttf</font>
+        <font weight="700" style="italic">GuruEnglish-BoldItalic.ttf</font>
+    </family>  -->
+    <!-- 犬神志注：简繁日韩多字重支持 [2019-08-25]-->
+    <family lang="zh-Hans">
+        <font weight="100" style="normal">Guruwords-Thin.ttf</font>
+        <font weight="300" style="normal">Guruwords-Light.ttf</font>
+        <font weight="400" style="normal">Guruwords-Regular.ttf</font>
+        <font weight="500" style="normal">Guruwords-Medium.ttf</font>
+        <font weight="700" style="normal">Guruwords-Bold.ttf</font>
+        <font weight="900" style="normal">Guruwords-Bold.ttf</font>
     </family>
+    <family lang="zh-Hant">
+        <font weight="100" style="normal">Guruwords-Thin.ttf</font>
+        <font weight="300" style="normal">Guruwords-Light.ttf</font>
+        <font weight="400" style="normal">Guruwords-Regular.ttf</font>
+        <font weight="500" style="normal">Guruwords-Medium.ttf</font>
+        <font weight="700" style="normal">Guruwords-Bold.ttf</font>
+        <font weight="900" style="normal">Guruwords-Bold.ttf</font>
+    </family>
+    <family lang="ja">
+        <font weight="100" style="normal">Guruwords-Thin.ttf</font>
+        <font weight="300" style="normal">Guruwords-Light.ttf</font>
+        <font weight="400" style="normal">Guruwords-Regular.ttf</font>
+        <font weight="500" style="normal">Guruwords-Medium.ttf</font>
+        <font weight="700" style="normal">Guruwords-Bold.ttf</font>
+        <font weight="900" style="normal">Guruwords-Bold.ttf</font>
+    </family>
+    <!-- 附加韩文字体 -->
+    <family lang="ko">
+        <font weight="100" style="normal">GuruKorean-Thin.ttf</font>
+        <font weight="300" style="normal">GuruKorean-Light.ttf</font>
+        <font weight="400" style="normal">GuruKorean-Regular.ttf</font>
+        <font weight="500" style="normal">GuruKorean-Medium.ttf</font>
+        <font weight="700" style="normal">GuruKorean-Bold.ttf</font>
+        <font weight="900" style="normal">GuruKorean-Bold.ttf</font>
+    </family>
+    <family lang="zh-Hans">
+        <font weight="100" style="normal">GuruKorean-Thin.ttf</font>
+        <font weight="300" style="normal">GuruKorean-Light.ttf</font>
+        <font weight="400" style="normal">GuruKorean-Regular.ttf</font>
+        <font weight="500" style="normal">GuruKorean-Medium.ttf</font>
+        <font weight="700" style="normal">GuruKorean-Bold.ttf</font>
+        <font weight="900" style="normal">GuruKorean-Bold.ttf</font>
+    </family>
+    <family lang="zh-Hant">
+        <font weight="100" style="normal">GuruKorean-Thin.ttf</font>
+        <font weight="300" style="normal">GuruKorean-Light.ttf</font>
+        <font weight="400" style="normal">GuruKorean-Regular.ttf</font>
+        <font weight="500" style="normal">GuruKorean-Medium.ttf</font>
+        <font weight="700" style="normal">GuruKorean-Bold.ttf</font>
+        <font weight="900" style="normal">GuruKorean-Bold.ttf</font>
+    </family>
+    <family lang="ja">
+        <font weight="100" style="normal">GuruKorean-Thin.otf</font>
+        <font weight="300" style="normal">GuruKorean-Light.otf</font>
+        <font weight="400" style="normal">GuruKorean-Regular.otf</font>
+        <font weight="500" style="normal">GuruKorean-Medium.otf</font>
+        <font weight="700" style="normal">GuruKorean-Bold.otf</font>
+        <font weight="900" style="normal">GuruKorean-Bold.otf</font>
+    </family>
+    <!-- 以上为附加韩文字体 -->
+    <family lang="ko">
+        <font weight="100" style="normal">Guruwords-Thin.ttf</font>
+        <font weight="300" style="normal">Guruwords-Light.ttf</font>
+        <font weight="400" style="normal">Guruwords-Regular.ttf</font>
+        <font weight="500" style="normal">Guruwords-Medium.ttf</font>
+        <font weight="700" style="normal">Guruwords-Bold.ttf</font>
+        <font weight="900" style="normal">Guruwords-Bold.ttf</font>
+    </family>
+    <!-- 可选多字重字库补充文件：
+    <family lang="zh-Hans">
+        <font weight="100" style="normal">GuruSupplementSHS-Thin.otf</font>
+        <font weight="300" style="normal">GuruSupplementSHS-Light.ttf</font>
+        <font weight="400" style="normal">GuruSupplementSHS-Regular.ttf</font>
+        <font weight="500" style="normal">GuruSupplementSHS-Medium.ttf</font>
+        <font weight="700" style="normal">GuruSupplementSHS-Bold.ttf</font>
+        <font weight="900" style="normal">GuruSupplementSHS-Bold.ttf</font>
+    </family>
+    <family lang="zh-Hant">
+        <font weight="100" style="normal">GuruSupplementSHS-Thin.otf</font>
+        <font weight="300" style="normal">GuruSupplementSHS-Light.ttf</font>
+        <font weight="400" style="normal">GuruSupplementSHS-Regular.ttf</font>
+        <font weight="500" style="normal">GuruSupplementSHS-Medium.ttf</font>
+        <font weight="700" style="normal">GuruSupplementSHS-Bold.ttf</font>
+        <font weight="900" style="normal">GuruSupplementSHS-Bold.ttf</font>
+    </family>
+    <family lang="ja">
+        <font weight="100" style="normal">GuruSupplementSHS-Thin.otf</font>
+        <font weight="300" style="normal">GuruSupplementSHS-Light.ttf</font>
+        <font weight="400" style="normal">GuruSupplementSHS-Regular.ttf</font>
+        <font weight="500" style="normal">GuruSupplementSHS-Medium.ttf</font>
+        <font weight="700" style="normal">GuruSupplementSHS-Bold.ttf</font>
+        <font weight="900" style="normal">GuruSupplementSHS-Bold.ttf</font>
+    </family>
+    <family lang="ko">
+        <font weight="100" style="normal">GuruSupplementSHS-Thin.otf</font>
+        <font weight="300" style="normal">GuruSupplementSHS-Light.ttf</font>
+        <font weight="400" style="normal">GuruSupplementSHS-Regular.ttf</font>
+        <font weight="500" style="normal">GuruSupplementSHS-Medium.ttf</font>
+        <font weight="700" style="normal">GuruSupplementSHS-Bold.ttf</font>
+        <font weight="900" style="normal">GuruSupplementSHS-Bold.ttf</font>
+    </family>
+    -->
     <family lang="zh-Hans">
         <font weight="400" style="normal" index="2">NotoSansCJK-Regular.ttc</font>
         <font weight="400" style="normal" index="2" fallbackFor="serif">NotoSerifCJK-Regular.ttc</font>
