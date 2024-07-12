@@ -37,7 +37,7 @@
     </family>
     <!-- 调用英文字体 Notosans  -->
     <family>
-        <font weight="100" style="normal">fontchw1.ttf</font>
+        <font weight="100" style="normal">fontchw2.ttf</font>
         <font weight="200" style="normal">fontchw2.ttf</font>
         <font weight="300" style="normal">fontchw3.ttf</font>
         <font weight="400" style="normal">fontchw4.ttf</font>
@@ -45,7 +45,7 @@
         <font weight="600" style="normal">fontchw6.ttf</font>
         <font weight="700" style="normal">fontchw7.ttf</font>
         <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="900" style="normal">fontchw8.ttf</font>
     </family>
     <!-- 缺字补 Roboto，无需更改系统字体文件   -->
     <family>
@@ -564,7 +564,7 @@
     </family>
     <!-- 犬神志注：简繁日韩多字重支持 [2019-08-25]-->
     <family lang="zh-Hans">
-        <font weight="100" style="normal">fontchw1.ttf</font>
+        <font weight="100" style="normal">fontchw2.ttf</font>
         <font weight="200" style="normal">fontchw2.ttf</font>
         <font weight="300" style="normal">fontchw3.ttf</font>
         <font weight="400" style="normal">fontchw4.ttf</font>
@@ -572,10 +572,10 @@
         <font weight="600" style="normal">fontchw6.ttf</font>
         <font weight="700" style="normal">fontchw7.ttf</font>
         <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="900" style="normal">fontchw8.ttf</font>
     </family>
     <family lang="zh-Hant">
-        <font weight="100" style="normal">fontchw1.ttf</font>
+        <font weight="100" style="normal">fontchw2.ttf</font>
         <font weight="200" style="normal">fontchw2.ttf</font>
         <font weight="300" style="normal">fontchw3.ttf</font>
         <font weight="400" style="normal">fontchw4.ttf</font>
@@ -583,10 +583,10 @@
         <font weight="600" style="normal">fontchw6.ttf</font>
         <font weight="700" style="normal">fontchw7.ttf</font>
         <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="900" style="normal">fontchw8.ttf</font>
     </family>
     <family lang="ja">
-        <font weight="100" style="normal">fontchw1.ttf</font>
+        <font weight="100" style="normal">fontchw2.ttf</font>
         <font weight="200" style="normal">fontchw2.ttf</font>
         <font weight="300" style="normal">fontchw3.ttf</font>
         <font weight="400" style="normal">fontchw4.ttf</font>
@@ -594,10 +594,10 @@
         <font weight="600" style="normal">fontchw6.ttf</font>
         <font weight="700" style="normal">fontchw7.ttf</font>
         <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="900" style="normal">fontchw8.ttf</font>
     </family>
     <family lang="ko">
-        <font weight="100" style="normal">fontchw1.ttf</font>
+        <font weight="100" style="normal">fontchw2.ttf</font>
         <font weight="200" style="normal">fontchw2.ttf</font>
         <font weight="300" style="normal">fontchw3.ttf</font>
         <font weight="400" style="normal">fontchw4.ttf</font>
@@ -605,7 +605,7 @@
         <font weight="600" style="normal">fontchw6.ttf</font>
         <font weight="700" style="normal">fontchw7.ttf</font>
         <font weight="800" style="normal">fontchw8.ttf</font>
-        <font weight="900" style="normal">fontchw9.ttf</font>
+        <font weight="900" style="normal">fontchw8.ttf</font>
     </family>
     <family lang="zh-Hans">
         <font weight="400" style="normal" index="2">NotoSansCJK-Regular.ttc</font>
